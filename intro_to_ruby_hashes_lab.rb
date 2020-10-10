@@ -6,7 +6,8 @@ end
 def monopoly_with_second_tier
   new_hash = {:railroads => {
     :pieces => 4, 
-    :rent_in_dollars => { }
+    :rent_in_dollars => { },
+    :names => { }
   }
 }
   # you built in the previous method. Run the tests. They will fail, but
